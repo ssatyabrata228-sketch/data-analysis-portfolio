@@ -17,6 +17,27 @@
 - Charts and KPI cards
 - Dashboard layout and usability
 
+## Practical Example — Sales Dashboard
+
+**Business question:** Which regions and categories are driving revenue?
+
+**Suggested columns:** `Date`, `Order ID`, `Region`, `Category`, `Product`, `Units`, `Unit Price`, `Revenue`.
+
+**Formula:**
+```excel
+=Units*Unit_Price
+```
+
+**PivotTables to create:**
+- Revenue by Region
+- Revenue by Category
+- Monthly Revenue
+- Units by Product
+
+**KPI cards:** Total Revenue, Total Units, Number of Orders, Average Order Value.
+
+**Dashboard filters:** Month, Region, Category.
+
 ## Dashboard Checklist
 - Define the audience and business question.
 - Put the most important KPIs at the top.
